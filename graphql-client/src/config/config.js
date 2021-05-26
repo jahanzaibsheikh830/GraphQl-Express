@@ -4,11 +4,11 @@ import { getMainDefinition } from '@apollo/client/utilities';
 import { WebSocketLink } from '@apollo/client/link/ws';
 
 const httpLink = new HttpLink({
-  uri: 'http://localhost:5000/graphql'
+  uri: 'https://graphql-express-server.herokuapp.com/graphql'
 });
 
 const wsLink = new WebSocketLink({
-  uri: 'ws://localhost:5000/graphql',
+  uri: 'ws://graphql-express-server.herokuapp.com/graphql',
   options: {
     reconnect: true
   }
