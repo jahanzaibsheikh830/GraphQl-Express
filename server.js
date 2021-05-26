@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000
 app.use("/", express.static(path.resolve(path.join(__dirname, "./graphql-client/build"))))
 
 app.use(cors({
-    origin: "https://graphql-express-server.herokuapp.com"
+    origin: "https://graphql-express-server.herokuapp.com/"
 }))
 const apolloServer = new ApolloServer({
     typeDefs,
