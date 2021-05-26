@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1250px;
+    max-width: 100%;
+}
+.header{
+    width: 100%;
+    max-width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.heading{
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+
+}
