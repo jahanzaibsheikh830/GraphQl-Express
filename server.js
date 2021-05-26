@@ -19,7 +19,7 @@ const apolloServer = new ApolloServer({
     typeDefs,
     resolvers,
     playground: {
-        endpoint: 'http://localhost:5000/graphql',
+        endpoint: 'https://graphql-express-server.herokuapp.com/graphql',
     },
     introspection: true,
 })
